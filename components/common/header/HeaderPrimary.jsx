@@ -13,19 +13,19 @@ export default function HeaderPrimary() {
 
           <li>
             <Link href="/" title="Home">
-              Home
+              Costume
             </Link>
           </li>
 
           <li>
             <Link href="/" title="Home">
-              Home
+              Camasi
             </Link>
           </li>
 
           <li>
             <Link href="/" title="Home">
-              Home
+              Accesorii
             </Link>
           </li>
         </ul>
@@ -40,19 +40,19 @@ export default function HeaderPrimary() {
 
           <li>
             <Link href="/" title="Glamour Suits">
-              Glamour Suits
+              Wedding suits
             </Link>
           </li>
 
           <li>
             <Link href="/" title="Glamour Suits">
-              Glamour Suits
+              Office suits
             </Link>
           </li>
 
           <li>
             <Link href="/" title="Glamour Suits">
-              Glamour Suits
+              Customize your suit
             </Link>
           </li>
         </ul>
