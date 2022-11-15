@@ -12,31 +12,31 @@ export default function FooterPrimary() {
           </li>
 
           <li>
-            <Link href="/" title="Informatii">
+            <Link href="/" title="Contact us">
               Contact us
             </Link>
           </li>
 
           <li>
-            <Link href="/" title="Informatii">
+            <Link href="/" title="Track my order">
               Track my order
             </Link>
           </li>
 
           <li>
-            <Link href="/" title="Informatii">
+            <Link href="/" title="Shopping">
               Shopping
             </Link>
           </li>
 
           <li>
-            <Link href="/" title="Informatii">
+            <Link href="/" title="Free returns*">
               Free returns*
             </Link>
           </li>
 
           <li>
-            <Link href="/" title="Informatii">
+            <Link href="/" title="My account">
               My account
             </Link>
           </li>

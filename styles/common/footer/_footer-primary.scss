@@ -83,7 +83,7 @@
       flex-direction: row;
       gap: 8px;
 
-      li > a > i {
+      i[class*='fa-'] {
         display: flex;
         align-self: baseline;
         padding-bottom: 5px;
