@@ -13,3 +13,45 @@
     }
   }
 }
+
+.product-tile-title {
+  font-weight: 300;
+  margin: 18px 0 12px 0;
+  font-size: 24px;
+  text-align: center;
+
+  span:first-child {
+    color: $black;
+    font-weight: 500;
+  }
+
+  span:nth-child(2) {
+    color: $gray-primary;
+    font-weight: 500;
+  }
+}
+
+.product-tile-subtitle {
+  text-align: center;
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.product-tile-pricing {
+  text-align: center;
+  margin-bottom: 19px;
+
+  .product-price-regular {
+    text-decoration: line-through;
+  }
+
+  .product-price span {
+    font-weight: 500;
+    color: $brand-primary;
+  }
+}
+
+.product-tile-footer {
+  text-align: center;
+}
