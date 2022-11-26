@@ -52,6 +52,7 @@
   .footer-contact {
     display: inline-block;
     grid-area: contact;
+    justify-content: center;
 
     h1 {
       text-transform: uppercase;
@@ -77,6 +78,11 @@
     display: flex;
     text-transform: uppercase;
     grid-area: support;
+    justify-content: center;
+
+    @include media-breakpoint-up(lg) {
+      justify-self: flex-start;
+    }
 
     ul {
       display: flex;
@@ -84,12 +90,10 @@
       gap: 8px;
 
       i[class*='fa-'] {
-        display: flex;
-        align-self: baseline;
-        padding-bottom: 5px;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 36px;
         color: $brand-primary;
-        width: 40px;
-        height: 40px;
       }
     }
   }
